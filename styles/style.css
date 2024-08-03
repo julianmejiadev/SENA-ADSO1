@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-color: #f0ac6d;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.header{
+padding: 2% 0% 0% 30%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.header__menu_link{
+    font-family:"Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f6f6f6f6;
+    text-decoration: none;
+}
+
+
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 6% 10%;
+    justify-content: space-between;
+    gap: 82px;
+}
+ .presentacion__contenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+
+ .presentacion__contenido__titulo{
+    font-size: 2.2rem;
+    font-family: "Krona One", sans-serif;
+ }
+
+ .titulo-destaque{
+    color: #920707;
+}
+
+ .presentacion__contenido_texto{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ .presentacion__enlaces{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__enlaces_subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+ 
+ 
+
+ .presentacion__enlaces__link{
+    width: 50%;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #3f5012;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .presentacion__enlaces__link:hover{
+   background-color: #705031;
+ }
+
+ .presentacion__imagen{
+    width: 50%;
+ }
+
+ .footer{
+    background-color: #d43f3f;
+    padding: 1.5rem;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+ }
+
+ @media (max-width: 1200px){
+    .header{
+        padding: 10%;
+    }
+    .header__menu{
+        justify-content: center;
+    }
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .presentacion__contenido{
+        width: auto;
+    }
+ }
+ 
